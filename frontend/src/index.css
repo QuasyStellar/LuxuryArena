@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes flash {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111827; /* gray-900 */
+}
